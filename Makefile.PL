@@ -1,16 +1,18 @@
 use inc::Module::Install;
-name 'ShipIt-Step-Faebook';
-all_from 'lib/ShipIt/Step/Faebook.pm';
-readme_from 'lib/ShipIt/Step/Faebook.pm';
-readme_markdown_from 'lib/ShipIt/Step/Faebook.pm';
+name 'ShipIt-Step-Facebook';
+all_from 'lib/ShipIt/Step/Facebook.pm';
+readme_from 'lib/ShipIt/Step/Facebook.pm';
+readme_markdown_from 'lib/ShipIt/Step/Facebook.pm';
 githubmeta;
 
-# requires '';
+requires 'YAML';
+requires 'LWP::UserAgent';
+requires 'HTTP::Request::Common';
+requires 'ShipIt';
 
 tests 't/*.t';
 author_tests 'xt';
 
 build_requires 'Test::More';
 auto_set_repository;
-auto_include;
 WriteAll;

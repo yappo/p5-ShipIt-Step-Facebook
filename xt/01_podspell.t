@@ -7,4 +7,15 @@ all_pod_files_spelling_ok('lib');
 __DATA__
 Kazuhiro Osawa
 yappo {at} shibuya {dot} pl
-ShipIt::Step::Faebook
+ShipIt::Step::Facebook
+CPAN
+Facebook
+FrePAN
+YAML
+distname
+Facebook
+ShipIt::Step::Facebook
+yml
+FACEBOOK
+facebook
+shipit
